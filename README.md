@@ -78,7 +78,7 @@ Adicionar lembrar-me com cookies criptografados
 
 Nome: Laerte Ferraz da Silva Júnior
 Instituição: Curso Técnico em Informática – Escola Ulbra São Lucas
-Disciplina: Desenvolvimento Web – PHP
+Disciplina: Desenvolvimento Web II – PHP
 Professor: Jeferson Leon
 
 📚 Licença
