@@ -18,6 +18,7 @@ Navegador	Google Chrome / Firefox
 Editor de Código	Visual Studio Code / Sublime
 
 📁 Estrutura do Projeto
+
 CookiesSessionsPHP/
 │
 ├── exemplo_login/
