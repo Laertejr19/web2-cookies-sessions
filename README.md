@@ -1,9 +1,9 @@
-🍪 Cookies & Sessions PHP
+ Cookies & Sessions PHP
 
 Aplicação simples desenvolvida em PHP que demonstra o uso de cookies e sessões para armazenar informações e preferências do usuário.
 Projeto criado como parte dos estudos de desenvolvimento web e para praticar o gerenciamento de estado no PHP.
 
-🧠 Sobre o Projeto
+ Sobre o Projeto
 
 O CookiesSessionsPHP apresenta exemplos práticos do uso de cookies e sessões no PHP.
 Inclui um exemplo de login com sessão ativa e outro de tema personalizado utilizando cookies.
@@ -17,7 +17,7 @@ Versão Recomendada	PHP 7.4 ou superior
 Navegador	Google Chrome / Firefox
 Editor de Código	Visual Studio Code / Sublime
 
-📁 Estrutura do Projeto
+ Estrutura do Projeto
 ```
 CookiesSessionsPHP/
 │
@@ -34,7 +34,7 @@ CookiesSessionsPHP/
 │
 └── README.md
 ```
-🔑 Lógica de Sessão (Login)
+ Lógica de Sessão (Login)
 <?php
 session_start();
 $usuario = $_POST['usuario'];
@@ -48,22 +48,22 @@ if ($usuario === "admin" && $senha === "1234") {
 }
 ?>
 
-🍪 Lógica de Cookie (Tema)
+ Lógica de Cookie (Tema)
 <?php
 $tema = $_GET['tema'] ?? 'claro';
 setcookie('tema', $tema, time() + (86400 * 30)); // expira em 30 dias
 header("Location: index.php");
 ?>
 
-🏗️ Funcionalidades Implementadas
+ Funcionalidades Implementadas
 
-✅ Login simples com validação de credenciais
-✅ Manutenção da sessão ativa entre páginas
-✅ Logout que destrói a sessão e redireciona o usuário
-✅ Escolha de tema (claro ou escuro) salva em cookie
-✅ Organização de código em pastas separadas por exemplo
+ Login simples com validação de credenciais
+ Manutenção da sessão ativa entre páginas
+ Logout que destrói a sessão e redireciona o usuário
+ Escolha de tema (claro ou escuro) salva em cookie
+ Organização de código em pastas separadas por exemplo
 
-💡 Possíveis Melhorias
+ Possíveis Melhorias
 
 Integrar autenticação com banco de dados MySQL
 
@@ -75,14 +75,14 @@ Criar um sistema de cadastro de usuários
 
 Adicionar lembrar-me com cookies criptografados
 
-👨‍💻 Autor
+ Autor
 
 Nome: Laerte Ferraz da Silva Júnior
 Instituição: Curso Técnico em Informática – Escola Ulbra São Lucas
 Disciplina: Desenvolvimento Web II – PHP
 Professor: Jeferson Leon
 
-📚 Licença
+ Licença
 
 Projeto desenvolvido para fins educacionais.
 Livre para uso, modificação e estudo, desde que mantidos os créditos ao autor.
